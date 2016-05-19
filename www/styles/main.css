@@ -1,0 +1,258 @@
+
+/* MAIN STYLES */
+
+body {
+    font-family: Arial, 'Times New Roman', Verdana;
+    font-size: 13pt;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sizeable {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+/* NAV STYLES */
+
+#nav {
+    background: linear-gradient(0deg, #fafafc, #c7cfe5);
+    height: 91px;
+}
+
+#logo {
+    display: inline-block;
+    height: 91px;
+}
+
+#nav h1{
+    color: #5566aa;
+    font-size: 38pt;
+    font-weight: bold;
+    margin: 0;
+}
+
+#nav h3 {
+    color: #3d5ba4;
+    font-size: 12pt;
+    font-weight: initial;
+    margin: 0;
+    padding-left: 7px;
+}
+
+#nav nav{
+    display: inline-block;
+    float: right;
+    height: 91px;
+}
+
+#nav nav table {
+    margin: 30px 0;
+}
+
+#nav table td.active {
+    background: url("../images/nav_button.png") no-repeat;
+    background-size: 100% 23px;
+}
+
+#nav a {
+    color: #2f57a1;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* HEADER STYLES */
+
+#header {
+    background: url("../images/headerbg.jpg") /* no-repeat */;
+    height: 500px;
+}
+
+#header img {
+	background-size: 100%;
+	display: inline-block;
+	height: 341px;
+	padding: 54px 25px 0;
+	width: 440px;
+}
+
+#header img.CentralImage {
+	height: 427px;
+	left: 190px;
+	padding-top: 20px;
+	position: relative;
+	top: -400px;
+	width: 550px;
+}
+
+#slider {
+	height: 460px;
+}
+
+#slider_pagination {
+	width: 160px;
+	margin: 0 auto;
+}
+
+#slider_pagination span, #slider_pagination span.active {
+	padding-right: 40px;
+}
+
+#slider_pagination span {
+	background: url("../images/slide.png") no-repeat;
+}
+
+#slider_pagination span.active {
+	background: url("../images/slide_active.png") no-repeat;
+}
+
+/* CONTENT STYLES */
+#content {
+	background-color: #dadfeb;
+	height: 825px;
+}
+
+#banner {
+	background: url("../images/banner.png") no-repeat;
+	background-size: 100%;
+	height: 153px;
+}
+
+#banner p {
+	display: inline;
+}
+
+#banner div{
+	display: inline-block;
+	font-size: 27pt;
+	margin-top: 15px;
+}
+
+#banner_but {
+	    background: url("../images/button.png") no-repeat;
+    height: 94px;
+    margin-left: 50px;
+    cursor: pointer;
+    width: 342px;
+}
+
+#banner_but a {
+    color: white;
+    display: block;
+    font-size: 23pt;
+	padding: 12px 0px 12px 80px;
+}
+
+#banner_but a:hover {
+	color: red;
+}
+
+
+
+#page_content table {
+	width: 100%;
+}
+
+#page_content .block {
+	background-color: #fff;
+	margin-right: 30px;
+	padding: 15px 20px;
+}
+
+#page_content .block.last {
+	margin-right: 7px;
+}
+
+#page_content .block p {
+	color: #545668;
+	font-size: 77%;
+}
+
+#page_content .block h2 {
+	font-size: 120%;
+}
+
+#page_content .ReadMoreButton {
+	background: url("../images/read_more_button.png") no-repeat;
+	display: block;
+	height: 26px;
+	width: 117px;
+}
+
+#page_content .ReadMoreButton a {
+	color: #2945c0;
+	font-size: 80%;
+	margin: 0 17px;
+}
+
+#page_content .DownPart{
+	color: #132445;
+	font-size: 77%;
+}
+
+#page_content .DownPart img {
+	float: left;
+	padding-right: 10px;
+}
+
+#page_content .DownPart {
+	padding-top: 25px;
+}
+
+#AboutCompany {
+	font-size: 77%;
+	line-height: 2;
+}
+
+
+/* FOOTER STYLES */
+#footer {
+	background-color: #565f81;
+	color: #bdc2d2;
+	font-size: 77%;
+	height: 80px;
+}
+
+#footer  p {
+	color: #9fa8bd;
+    float: left;
+    margin-top: 10px;
+}
+
+#footer nav table {
+	border-spacing: 0;
+	padding-top: 15px;
+}
+
+#footer table a {
+	color: #bdc2d2;
+	padding: 0 10px;
+}
+
+#footer nav table td {
+	border-right: 1px solid #dadfeb;
+	border-left: 1px solid #939ab0;
+}
+
+#footer table td:first-child a {
+	padding-left: 0;
+}
+
+#footer td:last-child {
+	border-right: none;
+}
+
+#ConnectUsTable  {
+	border-spacing: 20px;
+}
+
+#ConnectUsTable span{
+	cursor: pointer;
+	height: 35px;
+	display: block;
+	width: 34px;
+}
